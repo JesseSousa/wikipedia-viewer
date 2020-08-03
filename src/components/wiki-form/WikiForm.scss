@@ -1,0 +1,41 @@
+.WikiForm {
+  margin-bottom: 3.5rem;
+  text-align: center;
+
+  &-title {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    text-shadow: 2px 2px var(--dark-color);
+  }
+
+  &-input {
+    padding: 0.25rem;
+    margin-right: 5px;
+    outline: none;
+    border: 1px solid var(--dark-color);
+    color: var(--dark-color);
+
+    &:focus {
+      border: 1px solid var(--main-color);
+    }
+  }
+
+  &-button {
+    border: 1px solid var(--dark-color);
+    padding: 0.25rem 1rem;
+    color: var(--dark-color);
+    text-transform: uppercase;
+    outline: none;
+    margin-bottom: 1.5rem;
+
+    &:focus {
+      border: 1px solid var(--main-color);
+    }
+  }
+
+  &-link {
+    display: block;
+    text-align: center;
+    color: var(--dark-color);
+  }
+}

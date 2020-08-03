@@ -1,0 +1,14 @@
+.WikiItem {
+  display: block;
+  border-left: 4px solid var(--green-color);
+  padding: 0 6px;
+  margin-bottom: 0.25rem;
+  background: var();
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 0.3s;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
