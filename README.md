@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wikipedia Viewer
+
+A simple wikipedia viewer made with react.
 
 ## Available Scripts
 
